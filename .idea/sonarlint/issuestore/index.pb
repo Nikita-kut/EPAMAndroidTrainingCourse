@@ -25,3 +25,11 @@ Q
 !lection_3/kotlin/TeacherKotlin.kt,d\e\dec54dc0ee05299fc6fd7b4272c32fbed11e5698
 M
 lection_3/kotlin/Transport.kt,3\0\3082e2cc6d558f6e3659979a459daf678e56f122
+F
+lection_4/Extension.kt,9\4\947fdc993df9d95da31e1aaca84a7ba69b7dd0fd
+A
+lection_4/Main.kt,2\d\2d07ee095a9942f6b92cff7061fa6f49dd1e6f78
+A
+lection_4/User.kt,4\8\48ab33f9cb53145667395ad795a8e0c1867bf5d8
+H
+lection_4/UserUiModel.kt,b\e\bed2b218ea7b7ea5422c78d82dbee1d2da4c9e03
