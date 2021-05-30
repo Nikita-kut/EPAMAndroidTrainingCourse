@@ -33,3 +33,11 @@ A
 lection_4/User.kt,4\8\48ab33f9cb53145667395ad795a8e0c1867bf5d8
 H
 lection_4/UserUiModel.kt,b\e\bed2b218ea7b7ea5422c78d82dbee1d2da4c9e03
+C
+lection_5/Garage.kt,6\9\69d0270bf3589f0c7eaab1326b697d370dceb558
+A
+lection_5/Main.kt,4\e\4e8d315c8cc499859a72b0ae2a14bffcfc308dd5
+F
+lection_5/Transport.kt,c\1\c165ffe50bca440ba885f09ee0bca9a4a485447f
+P
+ lection_5/TransportExtensions.kt,6\7\6794dc46d4c89f195dc30fe015b5dd50c7a064fd
