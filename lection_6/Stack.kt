@@ -1,14 +1,14 @@
 class Stack {
 
-    private var stack: List<Stack> = listOf()
+    private val itemList: MutableList<Stack> = mutableListOf()
 
+    @Synchronized
     fun push() {
-        stack = stack + Stack()
+        itemList.add(Stack())
     }
 
-    fun pop(): List<Stack> {
-        stack = stack - stack.toMutableList().removeAt(0)
-        return stack
+    @Synchronized
+    fun pop() {
+        itemList.remove(Stack())
     }
-
 }
