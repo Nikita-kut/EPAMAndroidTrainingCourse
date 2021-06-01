@@ -12,6 +12,7 @@ fun main() {
         }
         shutdown()
     }
+
     val myFixedExecutor = Executors.newFixedThreadPool(3)
     for (i in 0..4) {
         val future = myFixedExecutor.submit(Callable {
@@ -33,14 +34,11 @@ fun main() {
     }
 
     val myScheduledExecutor = Executors.newScheduledThreadPool(2)
+
     with(myScheduledExecutor) {
-        execute {
-            println(Thread.currentThread().name)
-            Thread.sleep(3000)
-            println(Thread.currentThread().name)
-            Thread.sleep(3000)
-            println(Thread.currentThread().name)
-            Thread.sleep(3000)
+        for (i in 0..2) {
+            this.execute(ExecutorTask())
+            Thread.sleep(5000)
         }
         shutdown()
     }
