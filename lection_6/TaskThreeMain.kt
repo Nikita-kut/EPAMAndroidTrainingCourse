@@ -1,5 +1,6 @@
 import java.util.concurrent.Callable
 import java.util.concurrent.Executors
+import java.util.concurrent.TimeUnit
 
 fun main() {
 
@@ -37,9 +38,21 @@ fun main() {
 
     with(myScheduledExecutor) {
         for (i in 0..2) {
-            this.execute(ExecutorTask())
-            Thread.sleep(5000)
+            schedule(
+                ExecutorTask(),
+                5000,
+                TimeUnit.MILLISECONDS
+            )
         }
         shutdown()
     }
+
+    // старая реализация
+//    with(myScheduledExecutor) {
+//        for (i in 0..2) {
+//            execute(ExecutorTask())
+//            Thread.sleep(5000)
+//        }
+//        shutdown()
+//    }
 }

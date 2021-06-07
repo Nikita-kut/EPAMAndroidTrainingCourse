@@ -55,3 +55,5 @@ J
 lection_6/TaskThreeMain.kt,5\e\5ef712974f51c9646aaead9da8031609a3160452
 H
 lection_6/TaskTwoMain.kt,8\f\8fcf1de3034ea0ec96c4ebb637977a9edf6c62f9
+I
+lection_6/ExecutorTask.kt,2\6\2663fa016b816a6f0fbdef99d7258ca80e048f47
