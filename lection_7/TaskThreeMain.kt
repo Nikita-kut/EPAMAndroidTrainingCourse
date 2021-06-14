@@ -40,19 +40,10 @@ fun main() {
         for (i in 0..2) {
             schedule(
                 ExecutorTask(),
-                5000,
+                i * 3000L,
                 TimeUnit.MILLISECONDS
             )
         }
         shutdown()
     }
-
-    // старая реализация
-//    with(myScheduledExecutor) {
-//        for (i in 0..2) {
-//            execute(ExecutorTask())
-//            Thread.sleep(5000)
-//        }
-//        shutdown()
-//    }
 }
