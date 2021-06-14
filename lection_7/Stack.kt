@@ -1,6 +1,4 @@
 import java.util.concurrent.locks.ReentrantLock
-
-import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock
 
 class Stack {
