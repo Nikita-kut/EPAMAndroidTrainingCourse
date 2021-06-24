@@ -33,3 +33,27 @@ A
 lection_4/User.kt,4\8\48ab33f9cb53145667395ad795a8e0c1867bf5d8
 H
 lection_4/UserUiModel.kt,b\e\bed2b218ea7b7ea5422c78d82dbee1d2da4c9e03
+C
+lection_5/Garage.kt,6\9\69d0270bf3589f0c7eaab1326b697d370dceb558
+A
+lection_5/Main.kt,4\e\4e8d315c8cc499859a72b0ae2a14bffcfc308dd5
+F
+lection_5/Transport.kt,c\1\c165ffe50bca440ba885f09ee0bca9a4a485447f
+P
+ lection_5/TransportExtensions.kt,6\7\6794dc46d4c89f195dc30fe015b5dd50c7a064fd
+F
+lection_6/PopWorker.kt,a\3\a32c3df843cc77769bf8c4cf8ff3840a70709f3e
+G
+lection_6/PushWorker.kt,c\d\cd01ab01581d68d3e759972f334571eed86daee9
+B
+lection_6/Stack.kt,b\7\b782f43f03d189726fa25f4e4f0145cf68fb3c2a
+I
+lection_6/StackFactory.kt,1\3\135ad382c7c381c773f72d2adb696834b454ff92
+H
+lection_6/TaskOneMain.kt,1\c\1c6c4235c0ccbca5dd497bc045dfe85b95c9ac80
+J
+lection_6/TaskThreeMain.kt,5\e\5ef712974f51c9646aaead9da8031609a3160452
+H
+lection_6/TaskTwoMain.kt,8\f\8fcf1de3034ea0ec96c4ebb637977a9edf6c62f9
+I
+lection_6/ExecutorTask.kt,2\6\2663fa016b816a6f0fbdef99d7258ca80e048f47
